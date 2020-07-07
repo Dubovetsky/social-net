@@ -1,0 +1,19 @@
+.ava {
+  padding: 10px;
+}
+
+.profileHeader{
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.profileHeader .cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  /* margin: 0 auto; */
+}
