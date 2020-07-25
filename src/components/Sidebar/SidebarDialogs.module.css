@@ -1,0 +1,32 @@
+.side {
+    grid-area: s;
+    background-color: rgb(237, 242, 202);
+    padding: 20px;
+    min-height: 100vh;
+}
+.item a {
+    color: rgb(28, 14, 41);
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  .item a.activeLink {
+    color: rgb(161, 11, 18);
+  }
+
+  .item {
+      margin-bottom: 20px;
+      margin-left: 20px;
+  }
+
+  .buttonSidebar {
+      margin-left: 0px;
+      background-color: rgb(245, 245, 245);
+      border-radius: 5px;
+      border: solid 1px rgb(156, 88, 91);
+  }
+
+  .buttonSidebar:hover {
+      border-color: rgb(161, 11, 18);
+      border-width: 1px;
+  }

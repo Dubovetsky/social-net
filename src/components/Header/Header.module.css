@@ -1,8 +1,21 @@
 .header {
     grid-area: h;
-    background-color: lightgreen;
+    background-color: rgb(242,242,242);
+    border-bottom: solid rgb(179, 178, 178) 1px;
+    display: inline-block;
   }
   
   .header img {
-    width: 90px;
+    width: 54px;
+    padding-left: 10px;
+    padding-top: 2px;
+    float: left;
+  }
+
+  .header i {
+    padding-left: 20px;
+    font-size: 24px;
+    font-style: initial;
+    line-height: 55px;
+    font-family: 'MV Boli';
   }

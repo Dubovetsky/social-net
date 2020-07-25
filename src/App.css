@@ -2,16 +2,19 @@
   margin: 0 auto;
   display: grid;
   width: auto;
+  max-width: 1366px;
+  min-height: 100vh;
   grid-template-areas:
-    'h h'
-    'n c';
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
-  grid-gap: 10px;
+    'h h h'
+    'n b s'
+    'f f f';
+  grid-template-rows: 62px 3fr;
+  grid-template-columns: 140px 1fr 140px;
+  grid-gap: 2px;
 }
 
 
 .app-wrapper-content {
-  grid-area: c;
+  grid-area: b;
   background-color: linen;
 }

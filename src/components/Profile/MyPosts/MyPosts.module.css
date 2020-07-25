@@ -1,10 +1,27 @@
-  .content {
-    grid-area: c;
-    background-color: linen;
-  }
-  .postFrame {
-    padding: 10px;
-  }
-  .posts {
-    margin-top: 10px;
-  }
+.postFrame {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.newPost {
+  max-width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+textarea {
+  min-width: 99%;
+  min-height: 100px;
+}
+
+h2 {
+  text-align: center;
+}
+
+button {
+  text-align: center;
+  margin-left: 44%;
+  margin-right: 42%;
+  background-color: rgb(234,232,210);
+  border: solid 1px rgb(99, 94, 42);
+}

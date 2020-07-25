@@ -4,5 +4,6 @@
         "rerender",
         "rerender entire tree",
         "tree"
-    ]
+    ],
+    "git.ignoreLimitWarning": true
 }

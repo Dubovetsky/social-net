@@ -7,12 +7,16 @@ const ProfileInfo = () => {
             <div>
                 <div className={style.profileHeader}>
                     <div className={style.cell}>
-                        <img src='https://c.radikal.ru/c35/1912/e5/d52339da4ae2.jpg' />
+                        <div className={style.ava}>
+                            <img className={style.avatar} src='../../../../images/profile-photo.png' />
+                            <div className={style.textWrapper}>
+                                <div className={style.textName}>Thomas Shelby</div>
+                                <div className={style.textDescription}>Thomas Shelby, a fictional character from the TV Series Peaky Blinders</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div className={style.ava}>
-                    ava+description
-                </div>
+
             </div>
         </div>
     )

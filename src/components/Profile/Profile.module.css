@@ -1,3 +1,17 @@
 .profileHeader img {
   height: 200px;
 }
+
+/* .profile {
+  display: inline;
+}
+
+.profileBody {
+  grid-area: b;
+  float: left;
+}
+
+.sidebar {
+  grid-area: s;
+  float: right;
+} */

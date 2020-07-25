@@ -1,19 +1,8 @@
 .dialogs {
     display: grid;
-    grid-template-columns: 2fr 10fr;
-    
+    grid-template-columns: 2fr 10fr;    
 }
 
-.dialogsItems {
-    padding: 10px;
-    width: 3em;
-    height: 3em;
-    border: 2px solid red;
-    border-radius: 50%;
-    line-height: 3em;
-    text-align: center;
-    background: mistyrose
-}
 
 .dialogsItems .active {
     color: rgb(86, 128, 23);

@@ -3,10 +3,9 @@ import style from './Post.module.css';
 
 const Post = (props) => {
     return (
-        <div className={style.item}>
-            <img src='https://s3.nat-geo.ru/images/2019/4/10/4ca347667700403382d11aacf52f0e43.max-2000x1000.jpg' />
-            {props.message}
-            <div><span>like</span> {props.likesCount}</div>
+        <div className={style.newsWrapper}>
+            <div className={style.news}>{props.message}</div>
+            <div className={style.like}><span>like</span> {props.likesCount}</div>
         </div>
     )
 };
