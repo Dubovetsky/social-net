@@ -1,6 +1,3 @@
-// const { createContext } = require("react")
-// const { createStore } = require("redux")
-
 import {createStore, combineReducers} from "redux";
 import profileReducer from "./profile-reducer";
 import dialogsReducer from "./dialogs-reducer";

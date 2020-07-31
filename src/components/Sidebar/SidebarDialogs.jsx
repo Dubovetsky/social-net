@@ -10,15 +10,15 @@ const Sidebar = (props) => {
                 {<button className={style.buttonSidebar}>All contacts</button>}</NavLink>
             </div>
             <div className={style.item}>
-                <NavLink to='/dialog1' activeClassName={style.activeLink}>
+                <NavLink to='/dialogs/1' activeClassName={style.activeLink}>
                 <img src='../../../images/logo-friend-1.png' />Arthur Shelby</NavLink>
             </div>
             <div className={style.item}>
-                <NavLink to='/dialog2' activeClassName={style.activeLink}>
+                <NavLink to='/dialogs/2' activeClassName={style.activeLink}>
                 <img src='../../../images/logo-friend-2.png' />John Shelby</NavLink>
             </div>
             <div className={style.item}>
-                <NavLink to='/dialog3' activeClassName={style.activeLink}>
+                <NavLink to='/dialogs/3' activeClassName={style.activeLink}>
                 <img src='../../../images/logo-friend-3.png' />Grace Shelby</NavLink>
             </div>
         </nav>
