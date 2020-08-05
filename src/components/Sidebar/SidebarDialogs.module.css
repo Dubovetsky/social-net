@@ -2,7 +2,7 @@
     grid-area: s;
     background-color: rgb(237, 242, 202);
     padding: 20px;
-    min-height: 100vh;
+    min-height: 100%;
 }
 .item a {
     color: rgb(28, 14, 41);

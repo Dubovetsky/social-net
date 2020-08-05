@@ -7,8 +7,7 @@ const Header = (props) => {
             <div>
                 <img src='../../../../images/Logo.png' />
                 <i>Social Network</i>
-            </div>
-            
+            </div>           
         </header>
     )
 };
